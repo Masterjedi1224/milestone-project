@@ -1,0 +1,22 @@
+# Local Terraform cache and saved backend configuration
+.terraform/
+
+# Terraform state and backups, including bootstrap state
+*.tfstate
+*.tfstate.*
+
+# Saved plans and crash logs
+*.tfplan
+crash.log
+crash.*.log
+
+# Local variable files that may contain secrets
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+*.local.tfvars
+*.local.tfvars.json
+
+# Local S3 backend configuration
+*.s3.tfbackend
